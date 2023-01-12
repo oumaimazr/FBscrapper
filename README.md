@@ -18,10 +18,10 @@ we need to create a directory called “database” inside the “mongodb” dir
 Please find below the tests that you can try after setting the environment
 
 This request would scrap posts from the page “linkedin”
-http://127.0.0.1:8000/scrap/?page=linkedin&limit=2&save=false
+http://localhost:8000/scrap/?page=linkedin&limit=2&save=false
 
 This request would scrap and save the posts in the database
-http://127.0.0.1:8000/scrap/?page=linkedin&limit=3&save=true
+http://localhost:8000/scrap/?page=linkedin&limit=3&save=true
 
 This request would show all the data that we scrapped from the database
-http://127.0.0.1:8000/load/
+http://localhost:8000/load/
