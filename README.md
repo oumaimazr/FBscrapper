@@ -8,9 +8,10 @@ This app aims to scrap a given public facebook page.
 
 # Guide
 we need to create a directory called “database” inside the “mongodb” directory to map to the database location of the container. This will enable local access to the database. We use the -pv operator to create those parent folders.
-
+```cmd
  mkdir -pv database
  
+ ```
  
 # Test the API
 
