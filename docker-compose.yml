@@ -1,0 +1,21 @@
+version: "3.10"
+services:
+      app:
+        build: .
+        ports:
+          - 8000:8000
+        depends_on:
+         - mongodb
+
+      mongodb:
+        image : mongo
+        container_name: mongodb
+        environment:
+            - PUID=1000
+            - PGID=1000
+        volumes:
+
+         - ./database:/data/db
+        ports:
+        - 27017:27017
+        restart: unless-stopped
