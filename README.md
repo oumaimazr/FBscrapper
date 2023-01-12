@@ -6,7 +6,7 @@ This app aims to scrap a given public facebook page.
 - This API is build using FastAPI and the scrapped data is stored in a mondb cluster.
 - This repository contains a requirements.txt file that contains the required python libraries needed for this project, a main.py containing the project's code, a Dockerfile that can be used to build a docker for the API and a docker-compose file to setting up a MongoDB container.
 
-#Test the API
+# Test the API
 
 Please find below the tests that you can try after setting the environment
 
